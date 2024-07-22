@@ -15,7 +15,13 @@
 #nav {
     z-index: 1;
 }
-
+#collapsibleNavbar ul li a:hover,
+#collapsibleNavbar ul li a.active{
+    color: var(--yellow);
+    border-bottom: 1px solid var(--yellow);
+    /* border-top: 1px solid var(--yellow);
+    box-shadow: 0px 0px 5px 0px; */
+}
 /* First row property start */
 #row1 {
     background-color: var(--blue);
@@ -29,22 +35,24 @@
 }
 
 #hello {
-    top: 80px;
+    top: 200px;
     left: 100px;
 }
 
 @media screen and (max-width: 1000px) {
 
     #hello {
+        top: 100px;
         left: 70px;
     }
 
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 415px) {
 
     #hello {
-        left: 100px;
+        top: 100px;
+        left: 60px;
     }
 
 }

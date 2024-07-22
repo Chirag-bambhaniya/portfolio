@@ -26,7 +26,7 @@ $(document).ready(function(){
 
   $('#progress5').animate({
 
-      width: '50%'
+      width: '70%'
 
   }, 2500);
 

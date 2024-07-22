@@ -437,4 +437,29 @@
     margin-top: -15px;
     margin-left: 75px;
 }
+
+#mainLink{
+    border: 1px solid gray;
+}
+
+#mainLink:hover{
+    border-color: blue;
+}
+
+#linkDin{
+    color: white;
+}
+
+#linkDinIcon{
+    color: gray;
+}
+
+#linkDin:hover{
+    color: blue;
+    border: ;
+}
+
+#linkDin:hover #linkDinIcon{
+    color: blue;
+}
 /* eight row property end */

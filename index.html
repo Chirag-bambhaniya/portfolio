@@ -597,23 +597,29 @@
 
                     <div data-aos="fade-right" class="col col-lg-6 col-md-6 col-sm-12 col-12 mt-4">
 
-                        <input id="name" class="ps-3 w-100 text-secondary rounded-3" type="text" name="your name"
-                            placeholder="Your Name"> <br><br>
+                        <form action="https://api.web3forms.com/submit" method="POST">
 
-                        <input id="name" class="ps-3 w-100 text-secondary rounded-3" type="email" name="your email"
-                            placeholder="Your Email"><br><br>
+                            <input type="hidden" name="access_key" value="e9369941-1f1e-4c0d-b5d0-818239887c20">
 
-                        <input id="name" class="ps-3 w-100 text-secondary rounded-3" type="text" name="your subject"
-                            placeholder="Your Subject"><br><br>
+                            <input id="name" class="ps-3 w-100 text-secondary rounded-3" type="text" name="your name"
+                                placeholder="Your Name"> <br><br>
 
-                        <div id="mainMessage">
+                            <input id="name" class="ps-3 w-100 text-secondary rounded-3" type="email" name="your email"
+                                placeholder="Your Email"><br><br>
 
-                            <textarea id="message" class="ps-3 pt-2 w-100 text-secondary rounded-3" name="your message"
-                                placeholder="Your Message"></textarea>
+                            <input id="name" class="ps-3 w-100 text-secondary rounded-3" type="text" name="your subject"
+                                placeholder="Your Subject"><br><br>
 
-                        </div>
+                            <div id="mainMessage">
 
-                        <a id="btn2" class="btn p-2 rounded-pill mt-4 mb-5" href="#">Send Message</a>
+                                <textarea id="message" class="ps-3 pt-2 w-100 text-secondary rounded-3"
+                                    name="your message" placeholder="Your Message"></textarea>
+
+                            </div>
+
+                            <button id="btn2" class="btn p-2 rounded-pill mt-4 mb-5" type="submit">Send Message</button>
+
+                        </form>
 
                     </div>
 
@@ -666,13 +672,14 @@
 
                         <p class="fs-4 text-secondary mt-4">Visit my social profile and get connected</p>
 
-                        <div class="border border-1 border-secondary rounded-pill ps-3 pt-2 mb-5" style="width: 150px;">
+                        <div id="mainLink" class="rounded-pill ps-3 pt-2 mb-5" style="width: 150px;">
 
-                            <a id="linkDin" class="d-flex text-decoration-none" href="https://www.linkedin.com/in/chirag-bambhaniya-7a6564280/">
+                            <a id="linkDin" class="d-flex text-decoration-none"
+                                href="https://www.linkedin.com/in/chirag-bambhaniya-7a6564280/">
 
-                                <i class="bi bi-linkedin fs-4 text-secondary"></i>
+                                <i id="linkDinIcon" class="bi bi-linkedin fs-4"></i>
 
-                                <p class="fs-5 ps-3 pt-1 fw-bold text-light">Linkdin</p>
+                                <p class="fs-5 ps-3 pt-1 fw-bold ">Linkdin</p>
 
                             </a>
 
@@ -694,9 +701,9 @@
             integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
             crossorigin="anonymous"></script>
 
-            <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
 
-        
+
 
         <script src="jquery-3.7.1.min.js"></script>
 

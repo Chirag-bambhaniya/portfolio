@@ -79,6 +79,7 @@
 #row2 {
     background-color: var(--blue2);
     overflow: hidden;
+    padding-top: 2%;
 }
 
 #aboutMe {
@@ -139,6 +140,7 @@
 #row3 {
     background-color: var(--blue);
     overflow: hidden;
+    padding-top: 1%;
 }
 
 #mySkill {
@@ -283,6 +285,7 @@
 #row5 {
     background-color: var(--blue2);
     overflow: hidden;
+    padding-top: 5%;
 }
 
 #cardTitle1 {
@@ -387,6 +390,28 @@
 }
 
 #name:focus{
+    outline: none;
+    border: 1px solid var(--yellow);
+}
+
+#inputEmail{
+    height: 50px;
+    background-color: #101624;
+    border: 1px solid #070d1b;
+}
+
+#inputEmail:focus{
+    outline: none;
+    border: 1px solid var(--yellow);
+}
+
+#subject{
+    height: 50px;
+    background-color: #101624;
+    border: 1px solid #070d1b;
+}
+
+#subject:focus{
     outline: none;
     border: 1px solid var(--yellow);
 }
